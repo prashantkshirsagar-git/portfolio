@@ -10,34 +10,43 @@ const TechIcon = ({ src, alt, className = "" }: { src: string, alt: string, clas
 );
 
 export const techStack: TechStackItem[] = [
-  // --- Core Frontend & Mobile ---
+  // --- Frontend ---
   { 
     name: "React", 
     icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" /> 
   },
   { 
-    name: "Next.js", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" className="dark:invert" /> 
+    name: "JavaScript", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /> 
   },
   { 
-    name: "TypeScript", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /> 
+    name: "HTML5", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" /> 
   },
-  
+  { 
+    name: "CSS3", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" /> 
+  },
   { 
     name: "Tailwind", 
     icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" /> 
   },
   { 
-    name: "Framer Motion", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framermotion/framermotion-original.svg" alt="Framer Motion" className="dark:invert" /> 
+    name: "Redux", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux Toolkit" /> 
   },
-  
-  // --- Backend & Database ---
+
+  // --- Backend ---
   { 
     name: "Node.js", 
     icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" /> 
   },
+  { 
+    name: "Express.js", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" className="dark:invert" /> 
+  },
+
+  // --- Databases & Other ---
   { 
     name: "PostgreSQL", 
     icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" /> 
@@ -47,32 +56,23 @@ export const techStack: TechStackItem[] = [
     icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" /> 
   },
   { 
-    name: "Redis", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" /> 
+    name: "Firebase", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" /> 
   },
-  
-  // --- DevOps & Tools ---
   { 
-    name: "Docker", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" /> 
+    name: "SQL", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" /> 
   },
   { 
     name: "Git", 
     icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /> 
   },
-  
-  // --- State & BaaS ---
   { 
-    name: "Redux", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux" /> 
+    name: "Docker", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" /> 
   },
   { 
-    name: "React Native", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native" /> 
+    name: "Figma", 
+    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" /> 
   },
-  { 
-    name: "Firebase", 
-    icon: <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" /> 
-  },
-  
 ];

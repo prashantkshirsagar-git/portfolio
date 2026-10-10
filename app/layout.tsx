@@ -32,8 +32,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vaibhav Mali | Portfolio",
-  description: "Software Developer specialized in full-stack development.",
+  title: "Prashant Kshirsagar | Portfolio",
+  description: "Full-Stack Developer skilled in React.js, Node.js, Express.js, PostgreSQL, and MongoDB, with hands-on experience building AI-powered web applications.",
 };
 
 export default function RootLayout({

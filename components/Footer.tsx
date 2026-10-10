@@ -25,7 +25,7 @@ export function Footer() {
             <p className="flex items-center gap-1">
               Crafted with ❤️ by{" "}
               <span className="text-[#db775b] dark:text-[#db775b]">
-                Vaibhav Mali
+                Prashant Kshirsagar
               </span>
             </p>
           </div>

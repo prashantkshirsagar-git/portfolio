@@ -2,8 +2,6 @@ import {
   GithubLogo,
   LinkedinLogo,
   Envelope,
-  InstagramLogo,
-  XLogo,
   WhatsappLogo,
 } from "@phosphor-icons/react";
 import { SocialLink } from "@/types";
@@ -11,32 +9,22 @@ import { SocialLink } from "@/types";
 export const socialLinks: SocialLink[] = [
   {
     name: "GitHub",
-    url: "https://github.com/vaibhavmali-git",
+    url: "https://github.com/prashantkshirsagar-git",
     icon: <GithubLogo size={21} weight="regular" />,
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/vaibhavmali-li/",
+    url: "https://www.linkedin.com/in/prashant-kshirsagar-379939420/",
     icon: <LinkedinLogo size={21} weight="regular" />,
   },
   {
     name: "Email",
-    url: "mailto:vaibhavmali.dev@gmail.com",
+    url: "mailto:prashantkshirsagar.dev@gmail.com",
     icon: <Envelope size={21} weight="regular" />,
   },
   {
-    name: "Instagram",
-    url: "https://www.instagram.com/vaibhavmali.ig/",
-    icon: <InstagramLogo size={21} weight="regular" />,
-  },
-  {
-    name: "X/Twitter",
-    url: "https://twitter.com/vaibhavmali_01",
-    icon: <XLogo size={21} weight="regular" />,
-  },
-  {
     name: "WhatsApp",
-    url: "https://wa.me/917620795110",
+    url: "https://wa.me/918329838647",
     icon: <WhatsappLogo size={21} weight="regular" />,
   },
 ];

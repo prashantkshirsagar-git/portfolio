@@ -1,6 +1,6 @@
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
-import { Experience } from "@/components/Experience";
+import { Education } from "@/components/Education";
 import { TechStack } from "@/components/TechStack";
 import { Projects } from "@/components/Projects";
 import { Contacts } from "@/components/Contacts";
@@ -15,7 +15,7 @@ export default function Home() {
       <TechStack />
       <Divider />
 
-      <Experience />
+      <Education />
       <Divider />
 
       <Projects />
@@ -25,3 +25,4 @@ export default function Home() {
     </main>
   );
 }
+
